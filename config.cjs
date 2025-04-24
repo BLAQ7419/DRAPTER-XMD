@@ -3,10 +3,10 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "nector~Q1gwHSAC#och_Scizrc0Tq-9Paz4YbF_eQJFz1y04Kv5DHQb7sps,
+  SESSION_ID: process.env.SESSION_ID || "nector~ogIRCKwA#cmaqmvEN0Sdk02HC3y6g9Ft3-Vx4J8qV589cOTazj4c,
   PREFIX: process.env.PREFIX || '*',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
-  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
+  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : false,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
@@ -20,12 +20,12 @@ const config = {
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
-  BOT_NAME: process.env.BOT_NAME || "DRAPTER-XMD",
-  MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/mw30hn.jpg",
-  DESCRIPTION: process.env.DESCRIPTION || "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⓃⒺCⓉOR🍯",
-  OWNER_NAME: process.env.OWNER_NAME || "ⓃⒺCⓉOR🍯",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254725474072",
+  MODE: process.env.MODE || "private",
+  BOT_NAME: process.env.BOT_NAME || "YOUNG-BLAQ",
+  MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/zd4zqd.jpg",
+  DESCRIPTION: process.env.DESCRIPTION || "© Young blaq 🥷",
+  OWNER_NAME: process.env.OWNER_NAME || "Young blaq 🥷 ",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "23457966627",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
